@@ -3,7 +3,7 @@
   assert:
     that:
      - nextcloud_download_url is defined
-     - nextcloud_download_url | regex_search('http.*/.*\\d+\\.\\d+\\.\\d+\\.zip')
+     - nextcloud_download_url | regex_search('^http.*/[^/]*\\d+\\.\\d+\\.\\d+(-enterprise)?\\.zip$')
     fail_msg: >
       The variable nextcloud_download_url is not a valid Nextcloud package
       download URL.  Note that it must point to a specific version and not

@@ -121,7 +121,7 @@ checked), otherwise the upgrade will fail.
 Here is an example of how to upgrade::
 
     ansible-playbook site.yml --tags upgrade_nextcloud \
-        -e download_url=https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip
+        -e nextcloud_download_url=https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip
 
 If all goes well, at the end of the upgrade the directory
 :file:`/tmp/nextcloud.old` still contains the old installation (but
