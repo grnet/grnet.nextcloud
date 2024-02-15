@@ -1,5 +1,1 @@
-# grnet.nextcloud
-
-Ansible collection with roles for installing Nextcloud on Debian/Ubuntu.
-
-Documented at https://grnetnextcloud.readthedocs.org
+Obsolete repository. Please see https://github.com/grnet/team-collaboration-toolkit instead.
